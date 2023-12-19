@@ -92,7 +92,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 20px;
+  padding: 30px 20px;
 }
 
 .logo {
@@ -119,7 +119,7 @@ nav ul li {
   width: 100%;
   background-color: #F5B500;
   color: #4E4E4E;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   text-align: center;
 }
 
@@ -130,13 +130,11 @@ nav ul li {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  text-align: left;
+  padding: 1rem 4rem;
 }
 
-.firstContainerText {
-  position: absolute;
-  text-align: left;
-  padding: 24px 0 0 80px;
+.intro {
+  width: 400px;
 }
 
 .secondContainer {
@@ -150,17 +148,13 @@ nav ul li {
   padding: 88px 0 0 77px;
 }
 
-.intro {
-  width: 400px;
-}
-
 .slogan {
   text-align: center;
   font-family: "DM Serif Text", serif;
   text-align: left;
   font-size: 80px;
   color: #212D11;
-  padding: 64px 0 16px;
+  padding: 40px 0 16px;
   line-height: 120%;
 }
 
@@ -323,7 +317,18 @@ iframe {
   .slogan {
     font-size: 48px;
   }
+  .intro {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 400px;
+  }
+  .bold {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 400px;
+  }
   .servicio {
+    display: flex;
     flex-direction: column;
     max-width: 355px;
     gap: 10px;
@@ -341,6 +346,15 @@ iframe {
 /* Ajustes especificos para la vista móvil */
 /* 0 hasta 768px */
 @media (max-width: 768px) {
+  .bold {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+  }
+  .intro {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: auto;
+  }
   /* Nuestros servicios */
   .lastContainer {
     padding: 32px 16px;
@@ -348,6 +362,11 @@ iframe {
   }
   .typeOne {
     margin: 16px 0;
+  }
+  .servicio {
+    flex-direction: column;
+    max-width: 355px;
+    gap: 10px;
   }
   /* Contactanos */
   .contactosTitulo {
@@ -383,7 +402,7 @@ iframe {
 
 .servicio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   max-width: 800px;
   margin: auto;
