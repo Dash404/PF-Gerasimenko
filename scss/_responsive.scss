@@ -18,7 +18,21 @@
         font-size: 48px
     }
 
+    .intro {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        width: 400px;
+    }
+
+    .bold {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 400px;
+}
+
+
     .servicio {
+        display: flex;
         flex-direction: column;
         max-width: 355px;
         gap: 10px;
@@ -34,9 +48,6 @@
         font-size: 64px;
         text-align: center;
     }
-
-   
-
 }
 
 /* Ajustes especificos para la vista móvil */
@@ -44,14 +55,32 @@
 
 @media (max-width:768px) {
 
+    // index
+    .bold {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+    }
+
+    .intro {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        width: auto;
+    }
+
     /* Nuestros servicios */
     .lastContainer {
         padding: 32px 16px;
         text-align: center;
     }
 
-    .typeOne{
+    .typeOne {
         margin: 16px 0;
+    }
+
+    .servicio {
+        flex-direction: column;
+        max-width: 355px;
+        gap: 10px;
     }
 
     /* Contactanos */
@@ -79,11 +108,11 @@
 
     /* FOOTER */
 
-    .contactosFooter p{
+    .contactosFooter p {
         text-align: center;
     }
 
-    .contactanosFooter p{
+    .contactanosFooter p {
         text-align: center;
     }
 

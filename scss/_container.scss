@@ -13,13 +13,17 @@ $background-color_2: #FFFFFF;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
-	text-align: left;
+	padding: 1rem 4rem
 }
-.firstContainerText {
-	position: absolute;
-	text-align: left;
-	padding: 24px 0 0 80px;
+
+.intro {
+	width: 400px;
 }
+
+// .firstContainerText {
+// 	text-align: left;
+// 	padding: 24px 0 0 80px;
+// }
 .secondContainer {
 	position: relative;
 	padding: 2rem 2rem
@@ -32,16 +36,14 @@ $background-color_2: #FFFFFF;
 	height: 727px;
 	padding: 88px 0 0 77px;
 }
-.intro {
-	width: 400px;
-}
+
 .slogan {
 	text-align: center;
 	font-family: $font-family_1;
 	text-align: left;
 	font-size: 80px;
 	color: $color_2;
-	padding: 64px 0 16px;
+	padding: 40px 0 16px;
 	line-height: 120%;
 }
 .orange-word {
