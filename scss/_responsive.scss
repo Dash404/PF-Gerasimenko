@@ -18,6 +18,8 @@
         font-size: 48px
     }
 
+    
+
     .intro {
         background-color: rgba(255, 255, 255, 0.5);
         padding: 20px;
@@ -27,7 +29,6 @@
     .bold {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
-    width: 400px;
 }
 
 
@@ -66,6 +67,16 @@
         padding: 20px;
         width: auto;
     }
+
+    h1 {
+        font-size: 48px;
+    }
+
+// Portafolio
+
+.fiestaImagen {
+    height: auto;
+}
 
     /* Nuestros servicios */
     .lastContainer {

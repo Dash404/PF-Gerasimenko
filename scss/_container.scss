@@ -9,7 +9,6 @@ $background-color_2: #FFFFFF;
 /* SOBRE NOSOTROS */
 .firstContainer {
 	background-image: url(../img/Background\ for\ homepage.png);
-	height: 754px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -20,16 +19,9 @@ $background-color_2: #FFFFFF;
 	width: 400px;
 }
 
-// .firstContainerText {
-// 	text-align: left;
-// 	padding: 24px 0 0 80px;
-// }
 .secondContainer {
 	position: relative;
 	padding: 2rem 2rem
-	// p {
-	// 	color: $color_1;
-	// }
 }
 .thirdContainer {
 	background-color: $background-color_1;
@@ -59,18 +51,4 @@ $background-color_2: #FFFFFF;
 
 .contenedorSobre {
 	background-color: $background-color_2;
-	// margin: 16px 200px;
-	// gap: 10px;
-	// display: flex;
-	// flex-direction: column;
-	// align-items: center;
-	// justify-content: center;
 }
-
-// .elementosSobre{
-// 	// padding: 32px 40px;
-// 	// display: flex;
-// 	// align-items: center;
-// 	// justify-content: center;
-// 	// gap: 64px;
-// }

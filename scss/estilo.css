@@ -126,7 +126,6 @@ nav ul li {
 /* SOBRE NOSOTROS */
 .firstContainer {
   background-image: url(../img/Background\ for\ homepage.png);
-  height: 754px;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -190,7 +189,7 @@ nav ul li {
 
 .contentEvento {
   flex-grow: 1;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -328,7 +327,6 @@ iframe {
   .bold {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
-    width: 400px;
   }
   .servicio {
     display: flex;
@@ -357,6 +355,12 @@ iframe {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     width: auto;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .fiestaImagen {
+    height: auto;
   }
   /* Nuestros servicios */
   .lastContainer {
